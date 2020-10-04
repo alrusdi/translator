@@ -1,0 +1,39 @@
+.flag {
+    position: absolute;
+    margin-left: -16px;
+}
+
+.te-content {
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    margin-bottom: 10px;
+
+}
+
+.te-content.view-mode {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+
+.translations-list .translation-editor:last-child .te-content.view-mode {
+    border-bottom: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+
+.te-content.edit-mode {
+    padding: 20px;
+    background: #eee;
+}
+
+.te-content .edit-area {
+    margin-bottom: 20px;
+}
+
+.edit-button {
+    margin-right: 20px;
+}

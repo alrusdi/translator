@@ -1,0 +1,16 @@
+{% extends 'ui/base.html' %}
+{% block title %} Home {% endblock %}
+{% block content %}
+<div class="row">
+    <div class="col-sm-12 mb-3">
+       <h4 class="text-center"> Welcome to the home of Terraforming Mars Online localization project </h4>
+        <div>
+            {% if user.is_authenticated %}
+                Start your translation <a href="/translations/">here</a>
+            {% else %}
+                Please <a href="/translations/">log-in via Google first!</a>
+            {% endif %}
+        </div>
+    </div>
+</div>
+{% endblock %}

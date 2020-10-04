@@ -1,0 +1,15 @@
+{% extends 'ui/base.html' %}
+{% block title %} Home {% endblock %}
+{% block content %}
+<div class="row">
+    <div class="col-sm-12 mb-3">
+        <h4 class="text-center"> Translations page of {{ user.username }} </h4>
+        <div id="translations-list-app"></div>
+    </div>
+</div>
+{% endblock %}
+
+{% block js %}
+<script src="http://unpkg.com/vue@next"></script>
+<script src="/static/js/translations.js"></script>
+{% endblock %}
